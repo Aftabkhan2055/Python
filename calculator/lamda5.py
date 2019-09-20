@@ -1,0 +1,5 @@
+x=(input("enter the number in seprated form"))
+q=x.split(",")
+p=list(map(lambda x:int(x),q))
+print(p)
+print(sum(p))

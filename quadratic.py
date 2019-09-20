@@ -1,17 +1,10 @@
 import math
-a=int(input("enter the no"))
-b=int(input("enter the no"))
-c=int(input("enter the no"))
-d=b**2-4*a*c
-if d<0:
-    print(" root are imaginary",d)
-elif  d==0:
-    root=math.sqrt(d)/2*a
-    print("root are equal",root)
-else:
-    root1=-b+math.sqrt(d)/2*a
-    root2=-b-math.sqrt(d)/2*a
-    print("seprateroot",root1)
-    print("seprateroort",root2)
-    
-    
+a=int(input("enter value of a"))
+b=int(input("enter the value b"))
+c=int(input("enter the value of c"))
+print(a,b,c)
+d=math.sqrt(b^2)-(4*a*c)
+q=(-b+d)/2*a
+r=(-b-d)/2*a
+print("quadratic equation",q)
+print("quadratic eqution",r)
